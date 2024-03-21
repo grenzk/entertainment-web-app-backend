@@ -6,7 +6,8 @@ class API::V1::MediaController < ApplicationController
       thumbnails = { regular: url_for(medium.images[0]) }
       thumbnails[:trending] = url_for(medium.images[1]) if medium.images[1].present?
 
-      medium.as_json(except: %i[created_at updated_at]).merge(thumbnails:)
+      medium.as_json(except: %i[created_at updated_at trending])
+            .merge(isTrending: medium.trending?, thumbnails:)
     end
 
     render json: { data: response }
