@@ -10,6 +10,6 @@ class API::V1::MediaController < ApplicationController
             .merge(isTrending: medium.trending?, thumbnails:)
     end
 
-    render json: { data: response }
+    render json: response
   end
 end
