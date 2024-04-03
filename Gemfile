@@ -46,5 +46,3 @@ group :development do
 end
 
 gem 'rubocop', require: false
-
-gem 'active_storage_validations'
