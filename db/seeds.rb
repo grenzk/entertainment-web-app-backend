@@ -9,20 +9,3 @@
 #   end
 puts "\n== Seeding the database with fixtures =="
 system('bin/rails db:fixtures:load')
-
-shows = Medium.all
-
-shows.each do |show|
-  show_directory = show.title.downcase.tr(' ', '-').delete("':")
-  regular_image_path = Rails.root.join('app', 'assets', 'thumbnails', show_directory, 'regular', 'large.jpg')
-
-  images = [] << { io: File.open(regular_image_path), filename: 'large.jpg' }
-
-  if show.trending
-    trending_image_path = Rails.root.join('app', 'assets', 'thumbnails', show_directory, 'trending',
-                                          'large.jpg')
-    images << { io: File.open(trending_image_path), filename: 'large.jpg' }
-  end
-
-  show.images.attach(images)
-end
