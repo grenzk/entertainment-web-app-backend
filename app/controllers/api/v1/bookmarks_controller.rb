@@ -1,12 +1,8 @@
 class API::V1::BookmarksController < ApplicationController
-  before_action :set_medium, only: %i[show destroy]
+  before_action :set_medium, only: %i[destroy]
 
   def index
     render json: Bookmark.includes(:medium).all, except: %i[id created_at updated_at]
-  end
-
-  def show
-    render json: @medium.bookmarks.find_by(medium_id: params[:id])
   end
 
   def create
