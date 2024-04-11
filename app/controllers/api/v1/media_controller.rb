@@ -9,7 +9,9 @@ class API::V1::MediaController < ApplicationController
       thumbnails[:trending] = base64_encode_image(trending_image_path) if File.exist?(trending_image_path)
 
       medium.as_json(except: %i[created_at updated_at trending])
-            .merge(isTrending: medium.trending?, thumbnails:)
+            .merge(isTrending: medium.trending?,
+                   isBookmarked: medium.bookmarks.exists?(medium_id: medium.id),
+                   thumbnails:)
     end
 
     render json: response

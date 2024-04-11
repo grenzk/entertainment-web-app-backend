@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  medium: five
+
+two:
+  medium: eight
+
+three:
+  medium: fourteen
+
+four:
+  medium: fifteen
+
+five:
+  medium: eighteen
+
+six:
+  medium: nineteen
+
+seven:
+  medium: twenty-two
+
+eight:
+  medium: twenty-four
+
+nine:
+  medium: twenty-seven
+
+ten:
+  medium: twenty-nine
