@@ -1,24 +1,54 @@
-# README
+# Entertainment Web App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A full-stack application for discovering and bookmarking shows.
 
-Things you may want to cover:
+## Table of contents
 
-- Ruby version
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Acknowledgments](#acknowledgments)
 
-- System dependencies
+## Overview
 
-- Configuration
+### The challenge
 
-- Database creation
+Users should be able to:
 
-- Database initialization
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Navigate between Home, Movies, TV Series, and Bookmarked Shows pages
+- Add/Remove bookmarks from all movies and TV series
+- Search for relevant shows on all pages
 
-- How to run the test suite
+### Screenshot
 
-- Services (job queues, cache servers, search engines, etc.)
+![](./app/assets/screenshots/desktop-preview.png)
+![](./app/assets/screenshots/search-preview.png)
 
-- Deployment instructions
+### Links
 
-- ...
+- [Solution](https://your-solution-url.com)
+- [Live Site](https://your-live-site-url.com)
+- [Frontend repo](https://github.com/grenzk/entertainment-web-app)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- SASS
+- Vue (frontend)
+- Quasar
+- Ruby on Rails (backend)
+
+## Acknowledgments
+
+This project was inspired by the [Entertainment web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/entertainment-web-app-J-UhgAW1X). Frontend Mentor challenges provide valuable opportunities to enhance coding skills by working on realistic projects.
