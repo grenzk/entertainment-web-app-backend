@@ -1,207 +1,204 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
+beyond_earth:
   title: Beyond Earth
   year: 2019
   category: Movie
   rating: PG
   trending: true
 
-two:
+bottom_gear:
   title: Bottom Gear
   year: 2021
   category: Movie
   rating: PG
   trending: true
 
-three:
+undiscovered_cities:
   title: Undiscovered Cities
   year: 2019
   category: TV Series
   rating: E
   trending: true
 
-four:
-  title: "1998"
+'1998':
+  title: '1998'
   year: 2021
   category: Movie
   rating: 18+
   trending: true
 
-five:
+dark_side_of_the_moon:
   title: Dark Side of the Moon
   year: 2018
   category: TV Series
   rating: PG
   trending: true
 
-six:
+the_great_lands:
   title: The Great Lands
   year: 2019
   category: Movie
   rating: E
   trending: false
 
-seven:
+the_diary:
   title: The Diary
   year: 2019
   category: TV Series
   rating: PG
   trending: false
 
-eight:
+earths_untouched:
   title: Earth's Untouched
   year: 2017
   category: Movie
   rating: 18+
   trending: false
 
-nine:
+no_land_beyond:
   title: No Land Beyond
   year: 2019
   category: Movie
   rating: E
   trending: false
 
-ten:
+during_the_hunt:
   title: During the Hunt
   year: 2016
   category: TV Series
   rating: PG
   trending: false
 
-eleven:
+autosport_the_series:
   title: Autosport the Series
   year: 2016
   category: TV Series
   rating: 18+
   trending: false
 
-twelve:
+same_answer_ii:
   title: Same Answer II
   year: 2017
   category: Movie
   rating: E
   trending: false
 
-thirteen:
+below_the_echo:
   title: Below Echo
   year: 2016
   category: TV Series
   rating: PG
   trending: false
 
-fourteen:
+the_rockies:
   title: The Rockies
   year: 2015
   category: TV Series
   rating: E
   trending: false
 
-fifteen:
+relentless:
   title: Relentless
   year: 2017
   category: Movie
   rating: PG
   trending: false
 
-sixteen:
+community_of_ours:
   title: Community of Ours
   year: 2018
   category: TV Series
   rating: 18+
   trending: false
 
-seventeen:
+van_life:
   title: Van Life
   year: 2015
   category: Movie
   rating: PG
   trending: false
 
-eighteen:
+the_heiress:
   title: The Heiress
   year: 2021
   category: Movie
   rating: PG
   trending: false
 
-nineteen:
+off_the_track:
   title: Off the Track
   year: 2017
   category: Movie
   rating: 18+
   trending: false
 
-twenty:
+whispering_hill:
   title: Whispering Hill
   year: 2017
   category: Movie
   rating: E
   trending: false
 
-twenty-one:
-  title: "112"
+'112':
+  title: '112'
   year: 2013
   category: TV Series
   rating: PG
   trending: false
 
-twenty-two:
+lone_heart:
   title: Lone Heart
   year: 2017
   category: Movie
   rating: E
   trending: false
 
-twenty-three:
+production_line:
   title: Production Line
   year: 2018
   category: TV Series
   rating: PG
   trending: false
 
-twenty-four:
+dogs:
   title: Dogs
   year: 2016
   category: TV Series
   rating: E
   trending: false
 
-twenty-five:
+asia_in_24_days:
   title: Asia in 24 Days
   year: 2020
   category: TV Series
   rating: PG
   trending: false
 
-twenty-six:
+the_tasty_tour:
   title: The Tasty Tour
   year: 2016
   category: TV Series
   rating: PG
   trending: false
 
-twenty-seven:
+darker:
   title: Darker
   year: 2017
   category: Movie
   rating: 18+
   trending: false
 
-twenty-eight:
+unresolved_cases:
   title: Unresolved Cases
   year: 2018
   category: TV Series
   rating: 18+
   trending: false
 
-twenty-nine:
-  title: "Mission: Saturn"
+mission_saturn:
+  title: 'Mission: Saturn'
   year: 2017
   category: Movie
   rating: PG
   trending: false
-
-
-
