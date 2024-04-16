@@ -46,3 +46,5 @@ group :development do
 end
 
 gem 'rubocop', require: false
+
+gem 'activerecord-cockroachdb-adapter', '~> 7.1.0'
