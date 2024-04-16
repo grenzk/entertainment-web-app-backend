@@ -78,7 +78,6 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  <<: *default
-  database: entertainment_web_app_backend_production
-  username: entertainment_web_app_backend
-  password: <%= ENV["ENTERTAINMENT_WEB_APP_BACKEND_DATABASE_PASSWORD"] %>
+  adapter: cockroachdb
+  url: <%= ENV['DATABASE_URL'] %>
+  sslrootcert: './root.crt'
