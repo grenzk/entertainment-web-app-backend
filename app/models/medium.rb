@@ -7,5 +7,5 @@ class Medium < ApplicationRecord
   validates :rating, presence: true, inclusion: { in: %w[PG E 18+] }
   validates :trending, presence: true
 
-  scope :ordered, -> { order(created_at: :asc) }
+  scope :ordered, -> { order(id: :asc) }
 end
