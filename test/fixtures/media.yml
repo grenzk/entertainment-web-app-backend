@@ -1,6 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 beyond_earth:
+  id: 1
   title: Beyond Earth
   year: 2019
   category: Movie
@@ -8,6 +9,7 @@ beyond_earth:
   trending: true
 
 bottom_gear:
+  id: 2
   title: Bottom Gear
   year: 2021
   category: Movie
@@ -15,6 +17,7 @@ bottom_gear:
   trending: true
 
 undiscovered_cities:
+  id: 3
   title: Undiscovered Cities
   year: 2019
   category: TV Series
@@ -22,6 +25,7 @@ undiscovered_cities:
   trending: true
 
 '1998':
+  id: 4
   title: '1998'
   year: 2021
   category: Movie
@@ -29,6 +33,7 @@ undiscovered_cities:
   trending: true
 
 dark_side_of_the_moon:
+  id: 5
   title: Dark Side of the Moon
   year: 2018
   category: TV Series
@@ -36,6 +41,7 @@ dark_side_of_the_moon:
   trending: true
 
 the_great_lands:
+  id: 6
   title: The Great Lands
   year: 2019
   category: Movie
@@ -43,6 +49,7 @@ the_great_lands:
   trending: false
 
 the_diary:
+  id: 7
   title: The Diary
   year: 2019
   category: TV Series
@@ -50,6 +57,7 @@ the_diary:
   trending: false
 
 earths_untouched:
+  id: 8
   title: Earth's Untouched
   year: 2017
   category: Movie
@@ -57,6 +65,7 @@ earths_untouched:
   trending: false
 
 no_land_beyond:
+  id: 9
   title: No Land Beyond
   year: 2019
   category: Movie
@@ -64,6 +73,7 @@ no_land_beyond:
   trending: false
 
 during_the_hunt:
+  id: 10
   title: During the Hunt
   year: 2016
   category: TV Series
@@ -71,6 +81,7 @@ during_the_hunt:
   trending: false
 
 autosport_the_series:
+  id: 11
   title: Autosport the Series
   year: 2016
   category: TV Series
@@ -78,6 +89,7 @@ autosport_the_series:
   trending: false
 
 same_answer_ii:
+  id: 12
   title: Same Answer II
   year: 2017
   category: Movie
@@ -85,6 +97,7 @@ same_answer_ii:
   trending: false
 
 below_the_echo:
+  id: 13
   title: Below Echo
   year: 2016
   category: TV Series
@@ -92,6 +105,7 @@ below_the_echo:
   trending: false
 
 the_rockies:
+  id: 14
   title: The Rockies
   year: 2015
   category: TV Series
@@ -99,6 +113,7 @@ the_rockies:
   trending: false
 
 relentless:
+  id: 15
   title: Relentless
   year: 2017
   category: Movie
@@ -106,6 +121,7 @@ relentless:
   trending: false
 
 community_of_ours:
+  id: 16
   title: Community of Ours
   year: 2018
   category: TV Series
@@ -113,6 +129,7 @@ community_of_ours:
   trending: false
 
 van_life:
+  id: 17
   title: Van Life
   year: 2015
   category: Movie
@@ -120,6 +137,7 @@ van_life:
   trending: false
 
 the_heiress:
+  id: 18
   title: The Heiress
   year: 2021
   category: Movie
@@ -127,6 +145,7 @@ the_heiress:
   trending: false
 
 off_the_track:
+  id: 19
   title: Off the Track
   year: 2017
   category: Movie
@@ -134,6 +153,7 @@ off_the_track:
   trending: false
 
 whispering_hill:
+  id: 20
   title: Whispering Hill
   year: 2017
   category: Movie
@@ -141,6 +161,7 @@ whispering_hill:
   trending: false
 
 '112':
+  id: 21
   title: '112'
   year: 2013
   category: TV Series
@@ -148,6 +169,7 @@ whispering_hill:
   trending: false
 
 lone_heart:
+  id: 22
   title: Lone Heart
   year: 2017
   category: Movie
@@ -155,6 +177,7 @@ lone_heart:
   trending: false
 
 production_line:
+  id: 23
   title: Production Line
   year: 2018
   category: TV Series
@@ -162,6 +185,7 @@ production_line:
   trending: false
 
 dogs:
+  id: 24
   title: Dogs
   year: 2016
   category: TV Series
@@ -169,6 +193,7 @@ dogs:
   trending: false
 
 asia_in_24_days:
+  id: 25
   title: Asia in 24 Days
   year: 2020
   category: TV Series
@@ -176,6 +201,7 @@ asia_in_24_days:
   trending: false
 
 the_tasty_tour:
+  id: 26
   title: The Tasty Tour
   year: 2016
   category: TV Series
@@ -183,6 +209,7 @@ the_tasty_tour:
   trending: false
 
 darker:
+  id: 27
   title: Darker
   year: 2017
   category: Movie
@@ -190,6 +217,7 @@ darker:
   trending: false
 
 unresolved_cases:
+  id: 28
   title: Unresolved Cases
   year: 2018
   category: TV Series
@@ -197,6 +225,7 @@ unresolved_cases:
   trending: false
 
 mission_saturn:
+  id: 29
   title: 'Mission: Saturn'
   year: 2017
   category: Movie

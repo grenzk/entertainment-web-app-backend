@@ -1,31 +1,31 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  medium: dark_side_of_the_moon
+  medium_id: 5
 
 two:
-  medium: earths_untouched
+  medium_id: 8
 
 three:
-  medium: the_rockies
+  medium_id: 14
 
 four:
-  medium: relentless
+  medium_id: 15
 
 five:
-  medium: the_heiress
+  medium_id: 18
 
 six:
-  medium: off_the_track
+  medium_id: 19
 
 seven:
-  medium: lone_heart
+  medium_id: 22
 
 eight:
-  medium: dogs
+  medium_id: 24
 
 nine:
-  medium: darker
+  medium_id: 27
 
 ten:
-  medium: mission_saturn
+  medium_id: 29
