@@ -48,3 +48,7 @@ end
 gem 'rubocop', require: false
 
 gem 'activerecord-cockroachdb-adapter', '~> 7.1.0'
+
+gem 'devise', '~> 4.9'
+
+gem 'devise-jwt', '~> 0.11.0'
