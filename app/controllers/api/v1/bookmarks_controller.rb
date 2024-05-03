@@ -1,4 +1,5 @@
 class API::V1::BookmarksController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_medium, only: %i[destroy]
 
   def index

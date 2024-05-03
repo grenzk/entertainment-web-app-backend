@@ -14,6 +14,6 @@ class API::V1::MembersController < ApplicationController
                              Rails.application.credentials.devise[:jwt_secret_key]).first
 
     user_id = jwt_payload['sub']
-    user = User.find(user_id.to_s)
+    User.find(user_id.to_s)
   end
 end

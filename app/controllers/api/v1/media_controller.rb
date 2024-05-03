@@ -1,4 +1,6 @@
 class API::V1::MediaController < ApplicationController
+  before_action :authenticate_user!
+
   def index
     media = Medium.all.ordered.map do |medium|
       medium_directory = format_directory_name(medium)
