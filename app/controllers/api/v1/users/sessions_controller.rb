@@ -4,7 +4,7 @@ class API::V1::Users::SessionsController < Devise::SessionsController
   private
 
   def respond_with(_resource, _opts = {})
-    render json: { message: 'You are logged in.', user: current_user }, status: :ok
+    render json: { message: 'Logged in successfully.', user: current_user.as_json(except: :updated_at) }, status: :ok
   end
 
   def respond_to_on_destroy
@@ -14,10 +14,10 @@ class API::V1::Users::SessionsController < Devise::SessionsController
   end
 
   def log_out_success
-    render json: { message: 'You are logged out.' }, status: :ok
+    render json: { message: 'Logged out successfully.' }, status: :ok
   end
 
   def log_out_failure
-    render json: { message: 'Hmm nothing happened.' }, status: :unauthorized
+    render json: { message: "Couldn't find an active session." }, status: :unauthorized
   end
 end
