@@ -17,6 +17,13 @@ Devise.setup do |config|
   # config.secret_key = '371cdda6f05e356398504ebf3ce528acbcd6293bbda32cc20f2aa2cfa8eacab0d78a86280fa48b6c0cfffe841e85343f54149963c567cf7b760efac789ec69bd'
   config.jwt do |jwt|
     jwt.secret = Rails.application.credentials.devise[:jwt_secret_key]
+    jwt.dispatch_requests = [
+      ['POST', %r{^/api/v1/users/sign_in$}]
+    ]
+    jwt.revocation_requests = [
+      ['DELETE', %r{^/api/v1/users/sign_out$}]
+    ]
+
     jwt.expiration_time = 30.minutes.to_i
   end
   # ==> Controller configuration
@@ -266,7 +273,7 @@ Devise.setup do |config|
   # should add them to the navigational formats lists.
   #
   # The "*/*" below is required to match Internet Explorer requests.
-  # config.navigational_formats = ['*/*', :html, :turbo_stream]
+  config.navigational_formats = []
 
   # The default HTTP method used to sign out a resource. Default is :delete.
   config.sign_out_via = :delete
