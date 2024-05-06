@@ -4,11 +4,7 @@ class API::V1::MembersController < ApplicationController
   def show
     user = user_from_token
 
-    if user
-      render json: { user: user.as_json(except: :updated_at) }, status: :ok
-    else
-      render json: { message: 'User not found.' }, status: :not_found
-    end
+    render json: { user: user.as_json(except: :updated_at) }, status: :ok
   end
 
   private
