@@ -1,13 +1,12 @@
 class API::V1::BookmarksController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_medium, only: %i[destroy]
 
   def index
-    render json: Bookmark.includes(:medium).all, except: %i[id created_at updated_at]
+    render json: current_user.bookmarks.includes(:medium), except: %i[id created_at updated_at user_id]
   end
 
   def create
-    bookmark = Bookmark.new(bookmark_params)
+    bookmark = current_user.bookmarks.build(bookmark_params)
 
     if bookmark.save
       render json: bookmark, status: :created
@@ -17,17 +16,13 @@ class API::V1::BookmarksController < ApplicationController
   end
 
   def destroy
-    bookmark = @medium.bookmarks.find_by(medium_id: params[:id])
+    bookmark = current_user.bookmarks.find_by(medium_id: params[:id])
 
     bookmark.destroy
     head :no_content
   end
 
   private
-
-  def set_medium
-    @medium = Medium.find(params[:id])
-  end
 
   def bookmark_params
     params.require(:bookmark).permit(:medium_id)
