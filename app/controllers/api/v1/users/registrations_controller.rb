@@ -14,6 +14,7 @@ class API::V1::Users::RegistrationsController < Devise::RegistrationsController
   end
 
   def register_failed
-    render json: { message: 'Something went wrong.' }, status: :unprocessable_entity
+    render json: { message: 'Unable to create account. Check your details and try again.' },
+           status: :unprocessable_entity
   end
 end
