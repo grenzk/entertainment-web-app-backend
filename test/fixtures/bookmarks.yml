@@ -1,31 +1,31 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  medium_id: 5
+# one:
+#   medium_id: 5
 
-two:
-  medium_id: 8
+# two:
+#   medium_id: 8
 
-three:
-  medium_id: 14
+# three:
+#   medium_id: 14
 
-four:
-  medium_id: 15
+# four:
+#   medium_id: 15
 
-five:
-  medium_id: 18
+# five:
+#   medium_id: 18
 
-six:
-  medium_id: 19
+# six:
+#   medium_id: 19
 
-seven:
-  medium_id: 22
+# seven:
+#   medium_id: 22
 
-eight:
-  medium_id: 24
+# eight:
+#   medium_id: 24
 
-nine:
-  medium_id: 27
+# nine:
+#   medium_id: 27
 
-ten:
-  medium_id: 29
+# ten:
+#   medium_id: 29
