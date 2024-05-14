@@ -4,7 +4,7 @@ class API::V1::MembersController < ApplicationController
   def show
     user = user_from_token
 
-    render json: { user: user.as_json(except: :updated_at) }, status: :ok
+    render json: { user: user.as_json }, status: :ok
   end
 
   private

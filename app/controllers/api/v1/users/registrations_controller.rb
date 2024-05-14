@@ -10,7 +10,8 @@ class API::V1::Users::RegistrationsController < Devise::RegistrationsController
   end
 
   def register_success
-    render json: { message: 'Signed up successfully.', user: current_user.as_json(except: :updated_at) }, status: :ok
+    render json: { message: 'Signed up successfully.', user: current_user.as_json },
+           status: :ok
   end
 
   def register_failed
