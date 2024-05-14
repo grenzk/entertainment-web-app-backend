@@ -7,7 +7,7 @@ Rails.application.routes.draw do
                    sessions: 'api/v1/users/sessions',
                    registrations: 'api/v1/users/registrations'
                  }
-      get '/member-data', to: 'members#show'
+      get '/member_data', to: 'members#show'
 
       resources :media, only: :index
       resources :bookmarks, only: %i[index create destroy]
