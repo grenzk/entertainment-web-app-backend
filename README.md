@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://github.com/grenzk/entertainment-web-app-backend)
+- [Live Site](https://entertainment-web-app-navy.vercel.app)
 - [Frontend repo](https://github.com/grenzk/entertainment-web-app)
 
 ## My process
@@ -51,11 +51,21 @@ Users should be able to:
 - SASS
 - Vue
 - Quasar (Vue framework/component library)
+- Vue Router
+- Quasar (Vue framework/component library)
+- Axios (HTTP requests and data handling)
+- Pinia (State management)
+- VeeValidate with Yup (Form validation stack)
 
 #### Backend
 
 - Ruby on Rails
 - PostgreSQL
+- Devise with Devise-jwt (Authentication)
+
+##### ERD
+
+![](./app/assets/screenshots/erd.png)
 
 ## Usage
 
@@ -66,8 +76,7 @@ Users should be able to:
 Create a `.env.local` file and add
 
 ```
-VITE_MEDIA_API_ENDPOINT=http://127.0.0.1:3000/api/v1/media
-VITE_BOOKMARKS_API_ENDPOINT=http://127.0.0.1:3000/api/v1/bookmarks
+VITE_BASE_URL=http://localhost:3000
 ```
 
 then run the project
