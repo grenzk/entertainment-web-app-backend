@@ -1,10 +1,6 @@
 class API::V1::BookmarksController < ApplicationController
   before_action :authenticate_user!
 
-  def index
-    render json: current_user.bookmarks.includes(:medium), except: %i[id created_at updated_at user_id]
-  end
-
   def create
     bookmark = current_user.bookmarks.build(bookmark_params)
 

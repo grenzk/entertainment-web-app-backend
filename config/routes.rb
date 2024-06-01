@@ -10,7 +10,7 @@ Rails.application.routes.draw do
       get '/member_data', to: 'members#show'
 
       resources :media, only: :index
-      resources :bookmarks, only: %i[index create destroy]
+      resources :bookmarks, only: %i[create destroy]
     end
   end
 end
